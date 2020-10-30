@@ -1,10 +1,19 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+import dotenv from 'dotenv'
 
-module.exports = {
-  /* Your site config here */
-  plugins: [],
+dotenv.config({ path: '.env' })
+
+export default {
+  siteMetadata: {
+    title: 'EME6208',
+    siteUrl: '',
+    description: 'EME6208 ePortfolio',
+    twitter: '@philsinatra',
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/',
+      },
+    ],
+  },
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 }

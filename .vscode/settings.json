@@ -1,0 +1,33 @@
+{
+  "files.associations": {
+    "**/*.js": "javascriptreact"
+  },
+  "cSpell.words": [
+    "bobthefish",
+    "calt",
+    "canplaythrough",
+    "clig",
+    "figma",
+    "fuschia",
+    "Gatsbyjs",
+    "liga",
+    "linebreak",
+    "monokai",
+    "msapplication",
+    "nums",
+    "ogdesc",
+    "ogsitename",
+    "ogtitle",
+    "oldstyl",
+    "oldstyle",
+    "parens",
+    "philsinatra",
+    "prettierrc",
+    "readonly",
+    "smcp",
+    "Spritesheet",
+    "uuidv",
+    "Vercel",
+    "xlink",
+  ]
+}
