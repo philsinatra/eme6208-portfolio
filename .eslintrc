@@ -32,7 +32,7 @@
 		],
 		"linebreak-style": ["error", "unix"],
 		"max-len": [
-			1,
+			0,
 			{
 				"code": 120,
 				"tabWidth": 2
