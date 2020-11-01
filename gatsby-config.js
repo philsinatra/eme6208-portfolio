@@ -1,11 +1,6 @@
-import dotenv from 'dotenv'
-
-dotenv.config({ path: '.env' })
-
-export default {
+module.exports = {
   siteMetadata: {
     title: 'EME6208',
-    // siteUrl: '',
     description: 'EME6208 ePortfolio',
     twitter: '@philsinatra',
     menuLinks: [
