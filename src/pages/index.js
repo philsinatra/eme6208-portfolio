@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { Mast, SEO } from '../components'
@@ -8,7 +8,7 @@ import Article from '../templates/Article'
 export default function Home(props) {
   const data = [
     {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
+      img: withPrefix('/dswmedia/GettyImages-1169500916-1200.jpg'),
       title: 'Image Editing',
       week: 2,
       description:
@@ -16,7 +16,7 @@ export default function Home(props) {
       to: '/image-editing',
     },
     {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
+      img: withPrefix('/dswmedia/GettyImages-1202250586-1200.jpg'),
       title: 'Web Design',
       week: 3,
       description:
