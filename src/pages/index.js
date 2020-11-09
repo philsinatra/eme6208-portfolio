@@ -28,8 +28,8 @@ export default function Home(props) {
       title: 'Video Production',
       week: 5,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. Fusce ut posuere neque. ',
-      // to: '',
+        'This educational video about polar bears features basic examples of transitions, effects, narration and captions. ',
+      to: '/educational-video',
     },
     {
       img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
