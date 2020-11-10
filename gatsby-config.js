@@ -16,6 +16,10 @@ module.exports = {
         name: 'Web Design',
         link: '/web-design',
       },
+      {
+        name: 'Video Production',
+        link: '/video-production',
+      },
     ],
   },
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],

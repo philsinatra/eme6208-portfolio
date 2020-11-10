@@ -24,19 +24,19 @@ export default function Home(props) {
       to: '/web-design',
     },
     {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
+      img: withPrefix('/dswmedia/eme6208-educational-video-thumb.jpg'),
       title: 'Video Production',
       week: 5,
       description:
-        'This educational video about polar bears features basic examples of transitions, effects, narration and captions. ',
-      to: '/educational-video',
+        'This educational video about polar bears features basic examples of transitions, effects, narration and captions. It was produced using an array of applications from the Adobe Creative Suite.',
+      to: '/video-production',
     },
     {
       img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
       title: 'Digital Animation',
       week: 6,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. Fusce ut posuere neque. ',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. ',
       // to: '',
     },
     {

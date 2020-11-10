@@ -38,12 +38,12 @@ const Script = () => (
   </>
 )
 
-export default function EducationalVideoPage(props) {
+export default function VideoProductionPage(props) {
   return (
     <>
-      <SEO title="Educational Video" />
+      <SEO title="Video Production" />
       <Article pathName={props.location.pathName}>
-        <PageMast title="Educational Video" />
+        <PageMast title="Video Production" />
         <ArticleSectionStyles>
           <Video
             poster="https://pjs-uf.netlify.app/dswmedia/eme6208-educational-video-poster.jpg"
@@ -54,7 +54,7 @@ export default function EducationalVideoPage(props) {
             track="https://pjs-uf.netlify.app/dswmedia/eme6208-educational-video.vtt"
           />
           <div className="contain">
-            <h2>Documentation</h2>
+            <h2>Video Production</h2>
             <p>
               I used polar bears as the subject for my educational video. My
               kids are into a cartoon called{' '}
