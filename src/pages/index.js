@@ -32,12 +32,12 @@ export default function Home(props) {
       to: '/video-production',
     },
     {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
+      img: withPrefix('/dswmedia/eme6208-digital-animation-thumb.jpg'),
       title: 'Digital Animation',
       week: 6,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. ',
-      // to: '',
+        'This digital animation illustrating how a basic pulley system works includes basic examples of transitions, effects, narration and labels. It was produced using Adobe After Effects and Adobe Illustrator.',
+      to: '/digital-animation',
     },
     {
       img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
