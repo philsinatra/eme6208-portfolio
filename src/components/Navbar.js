@@ -1,4 +1,4 @@
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { useContext, useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
@@ -6,9 +6,13 @@ import { useLockBodyScroll } from '../hooks'
 import AppContext from '../state'
 import { NavbarStyles } from '../styles'
 
-const Navbar = () => {
+const Navbar = ({ site }) => {
   const [state, setState] = useContext(AppContext)
   const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    console.log('site :>> ', site)
+  }, [site])
 
   useEffect(() => {
     const t = setTimeout(() => setOpen(state.navOpen), 10)
@@ -16,20 +20,6 @@ const Navbar = () => {
       clearTimeout(t)
     }
   }, [state.navOpen])
-
-  const { site } = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-          menuLinks {
-            name
-            link
-          }
-        }
-      }
-    }
-  `)
 
   useLockBodyScroll()
 

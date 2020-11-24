@@ -13,21 +13,6 @@ const HeaderStyles = styled.header`
   width: 100%;
   z-index: 200;
 
-  a {
-    align-items: center;
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-decoration: none;
-    transition: color var(--duration-100) ease-in-out;
-
-    &:hover,
-    &:focus {
-      color: var(--color-orange-700);
-    }
-  }
-
   button {
     background-color: var(--color-gray-100);
     border: 1px solid var(--color-gray-200);
@@ -51,6 +36,52 @@ const HeaderStyles = styled.header`
 
     &:hover {
       cursor: pointer;
+    }
+
+    @media screen and (min-width: 64em) {
+      display: none;
+    }
+  }
+
+  nav {
+    display: none;
+
+    @media screen and (min-width: 64em) {
+      display: block;
+      width: 100%;
+
+      ul {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        li {
+          margin: 0;
+          padding: 0;
+
+          a {
+            align-items: center;
+            color: var(--color-white);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0.8rem 0.75rem;
+            text-decoration: none;
+            transition: all var(--duration-100) ease-in-out;
+
+            &:hover,
+            &:focus,
+            &[aria-current='page'] {
+              background-color: var(--color-celery-700);
+              color: var(--color-black);
+            }
+          }
+        }
+      }
     }
   }
 `
