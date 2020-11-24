@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Footer, Header } from '../components'
+import { Footer } from '../components'
 import { ArticleStyles } from '../styles'
 
 const Article = ({ children, location }) => {
@@ -9,7 +9,7 @@ const Article = ({ children, location }) => {
       <main role="main">
         <ArticleStyles>{children}</ArticleStyles>
       </main>
-      {/* <Footer role="contentinfo" /> */}
+      <Footer role="contentinfo" />
     </>
   )
 }

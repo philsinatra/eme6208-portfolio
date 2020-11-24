@@ -4,7 +4,7 @@ const ArticleSectionStyles = styled.section`
   background-color: var(--color-gray-950);
   line-height: 1.4;
   min-height: 75vh;
-  padding-top: 1.5rem;
+  padding: 1.5rem 0;
 
   @media screen and (min-width: 48em) {
     padding-top: 3rem;

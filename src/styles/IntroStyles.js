@@ -16,7 +16,7 @@ const IntroStyles = styled.section`
   h2 {
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 450;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -35,7 +35,8 @@ const IntroStyles = styled.section`
   }
 
   .lead {
-    font-size: clamp(1rem, 3vw, 1.75rem);
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    line-height: 1.3;
     margin: 0 auto 3rem;
     max-width: 65ch;
     /* text-align: center; */
@@ -56,6 +57,11 @@ const IntroStyles = styled.section`
     }
 
     > .card {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
       .image {
         line-height: 0;
         vertical-align: middle;
@@ -67,6 +73,7 @@ const IntroStyles = styled.section`
 
       .content {
         background-color: var(--color-white);
+        flex-grow: 1;
         padding: 3rem;
 
         header {

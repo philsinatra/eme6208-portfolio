@@ -17,8 +17,20 @@ module.exports = {
         link: '/web-design',
       },
       {
+        name: 'Drag n Drop',
+        link: '/dnd',
+      },
+      {
         name: 'Video Production',
         link: '/video-production',
+      },
+      {
+        name: 'Digital Animation',
+        link: '/digital-animation',
+      },
+      {
+        name: 'Screencast',
+        link: '/screencast',
       },
     ],
   },

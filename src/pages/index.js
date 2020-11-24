@@ -24,6 +24,14 @@ export default function Home(props) {
       to: '/web-design',
     },
     {
+      img: withPrefix('/dswmedia/eme6208-dnd-thumb.png'),
+      title: 'Drag-n-Drop',
+      week: 4,
+      description:
+        'This project tested my skills for analyzing and updating HTML, CSS and JavaScript originally written by Dr. Antonenko for our Foundations of Educational Technology course. ',
+      to: '/dnd',
+    },
+    {
       img: withPrefix('/dswmedia/eme6208-educational-video-thumb.jpg'),
       title: 'Video Production',
       week: 5,
@@ -40,20 +48,12 @@ export default function Home(props) {
       to: '/digital-animation',
     },
     {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
+      img: withPrefix('/dswmedia/eme6208-screencast-thumb.png'),
       title: 'Screencasting',
       week: 8,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. Fusce ut posuere neque. ',
-      // to: '',
-    },
-    {
-      img: 'https://templated.co/items/demos/hielo/images/pic02.jpg',
-      title: 'E-Portfolio',
-      week: 8,
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat orci. Etiam in dolor at arcu scelerisque aliquet. Quisque lorem diam, volutpat in elementum non, facilisis vel ipsum. Fusce ut posuere neque. ',
-      // to: '',
+        'This screencast video teaches the basics of getting setup with Figma Variants, a new way to group and organize variations of the same component. It was produced using Adobe After Effects, Adobe Premier and of course Figma.',
+      to: '/screencast',
     },
   ]
   return (

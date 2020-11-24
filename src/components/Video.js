@@ -27,7 +27,7 @@ const Video = ({
           loop={loop}
           playsInline={playsInline}
           poster={poster}
-          preload="true"
+          preload="none"
           title={title}
         >
           <source src={src} type="video/mp4" />
@@ -67,7 +67,7 @@ const Video = ({
 Video.defaultProps = {
   autoPlay: false,
   loop: false,
-  mTop: '3rem',
+  mTop: 0,
   playsInline: false,
   poster: 'false',
 }
