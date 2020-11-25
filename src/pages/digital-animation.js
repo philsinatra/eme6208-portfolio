@@ -18,7 +18,7 @@ export default function DigitalAnimationPage(props) {
             title="Digital animation explaining a simple pulley system"
           />
           <div className="contain">
-            <h2>Documentation</h2>
+            <h2>An Explaination</h2>
             <p>
               My digital animation explains how a simple pulley system works. I
               built this animation using Adobe After Effects instead of Adobe

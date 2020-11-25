@@ -78,6 +78,10 @@ export default function ImageEditingPage(props) {
               <img src={bookCoverComplete} alt="finished book cover" />
               <figcaption>Completed book cover</figcaption>
             </figure>
+          </div>
+        </ArticleSectionStyles>
+        <ArticleSectionStyles>
+          <div className="contain">
             <h2>A Logo</h2>
             <p>
               I developed two different logo concepts for this assignment. The
@@ -193,13 +197,11 @@ export default function ImageEditingPage(props) {
               dark backgrounds, and the angry eyes convey the power from the
               original inspiration point.
             </p>
-            <h3
-              css={css`
-                margin-top: 3rem;
-              `}
-            >
-              River Bend Art Company
-            </h3>
+          </div>
+        </ArticleSectionStyles>
+        <ArticleSectionStyles>
+          <div className="contain">
+            <h2>A Second Logo</h2>
             <p>
               My wife saw the logo, and reminded me that she needed logo help
               for a business she started a little over a year ago called the{' '}
@@ -215,6 +217,13 @@ export default function ImageEditingPage(props) {
               icon or image. The name is linked to the fact that we live in a
               river town, a few miles away from the Delaware River.
             </p>
+            <h3
+              css={css`
+                margin-top: 3rem;
+              `}
+            >
+              River Bend Art Company
+            </h3>
             <p>
               This time I started with the smaller logo, because her initial
               concern was that her current logo didn't stand out on social media
@@ -368,16 +377,8 @@ export default function ImageEditingPage(props) {
             </figure>
             <p>
               Overall I am happy with the outcome. I think both versions are
-              much stronger than the{' '}
-              <a
-                href="https://riverbendartcompany.com/dswmedia/brand-full.svg"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                current company logo
-              </a>
-              , and the issue of not standing out properly in a social media
-              feed has been addressed.
+              much strong, and the issue of not standing out properly in a
+              social media feed has been addressed.
             </p>
           </div>
         </ArticleSectionStyles>

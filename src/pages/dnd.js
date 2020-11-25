@@ -11,7 +11,7 @@ export default function DNDPage(props) {
         <PageMast title="Drag n Drop" />
         <ArticleSectionStyles>
           <div className="contain">
-            <h2>Drag n Drop</h2>
+            <h2>An Assessment</h2>
             <p>
               Here is{' '}
               <a

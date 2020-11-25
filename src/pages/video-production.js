@@ -54,7 +54,7 @@ export default function VideoProductionPage(props) {
             track="https://pjs-uf.netlify.app/dswmedia/eme6208-educational-video.vtt"
           />
           <div className="contain">
-            <h2>Video Production</h2>
+            <h2>An Ice Bear</h2>
             <p>
               I used polar bears as the subject for my educational video. My
               kids are into a cartoon called{' '}

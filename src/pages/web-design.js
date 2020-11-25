@@ -11,7 +11,7 @@ export default function ImageEditingPage(props) {
         <PageMast title="Web Design" />
         <ArticleSectionStyles>
           <div className="contain">
-            <h2>A JavaScript Quiz</h2>
+            <h2>A Quiz</h2>
             <p>
               Since I have extended knowledge of the topics covered in this
               assignment, I decided to challenge myself on this assignment and

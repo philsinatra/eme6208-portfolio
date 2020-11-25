@@ -18,7 +18,7 @@ export default function ScreencastPage(props) {
             title="Screencast explaining a simple pulley system"
           />
           <div className="contain">
-            <h2>Documentation</h2>
+            <h2>A Tutorial</h2>
             <p>
               The topic for my screencast is intended to be support for my
               students who use an application called{' '}

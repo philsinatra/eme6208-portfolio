@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const HeaderStyles = styled.header`
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-50);
   height: 3rem;
   align-items: center;
   display: flex;
@@ -65,19 +65,20 @@ const HeaderStyles = styled.header`
 
           a {
             align-items: center;
-            color: var(--color-white);
+            color: var(--color-gray-800);
             display: flex;
             flex-direction: column;
+            font-size: 0.875rem;
+            font-weight: normal;
             justify-content: center;
             padding: 0.8rem 0.75rem;
             text-decoration: none;
-            transition: all var(--duration-100) ease-in-out;
+            transition: color var(--duration-100) ease-in-out;
 
             &:hover,
             &:focus,
             &[aria-current='page'] {
-              background-color: var(--color-celery-700);
-              color: var(--color-black);
+              color: var(--color-white);
             }
           }
         }

@@ -2,7 +2,9 @@ import styled from 'styled-components'
 
 const ArticleSectionStyles = styled.section`
   background-color: var(--color-gray-950);
-  line-height: 1.4;
+  font-size: 1.1875rem;
+  line-height: 1.6875rem;
+  font-weight: 300;
   min-height: 75vh;
   padding: 1.5rem 0;
 
@@ -25,22 +27,10 @@ const ArticleSectionStyles = styled.section`
 
   h2 {
     font-size: 2rem;
-    font-weight: 350;
+    font-weight: 700;
     margin-top: 0;
     position: relative;
     text-align: center;
-
-    &::after {
-      background-color: var(--color-gray-600);
-      bottom: 0;
-      content: '';
-      height: 1px;
-      left: 0;
-      margin: auto auto -0.3rem;
-      position: absolute;
-      right: 0;
-      width: 50%;
-    }
   }
 `
 

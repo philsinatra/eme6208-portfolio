@@ -14,32 +14,31 @@ const IntroStyles = styled.section`
   }
 
   h2 {
+    font-size: 2rem;
     font-size: clamp(2rem, 5vw, 4rem);
-    font-weight: 450;
+    font-weight: 700;
     margin-bottom: 2rem;
     position: relative;
     text-align: center;
     text-transform: uppercase;
+  }
 
-    &::after {
-      background-color: var(--color-gray-600);
-      bottom: 0;
-      content: '';
-      height: 1px;
-      left: 0;
-      margin: auto auto -0.3rem;
-      position: absolute;
-      right: 0;
-      width: 40%;
-    }
+  .intro {
   }
 
   .lead {
-    font-size: clamp(1rem, 2.5vw, 1.75rem);
-    line-height: 1.3;
+    color: rgba(136, 136, 136, 1);
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 2.75rem;
     margin: 0 auto 3rem;
     max-width: 65ch;
     /* text-align: center; */
+
+    span {
+      color: var(--color-black);
+    }
   }
 
   .grid {
@@ -58,9 +57,11 @@ const IntroStyles = styled.section`
 
     > .card {
       align-items: center;
+      /* border-radius: 1.25rem; */
       display: flex;
       flex-direction: column;
       justify-content: center;
+      overflow: hidden;
 
       .image {
         line-height: 0;
@@ -88,32 +89,21 @@ const IntroStyles = styled.section`
             padding: 0;
             position: relative;
             text-transform: uppercase;
-
-            &::after {
-              background-color: var(--color-gray-800);
-              bottom: 0;
-              content: '';
-              height: 1px;
-              left: 0;
-              margin: auto auto -0.3rem;
-              position: absolute;
-              right: 0;
-              width: 30%;
-            }
           }
 
           h3 {
-            margin: 1rem 0 2rem;
+            margin: 0 0 2rem;
             font-size: 1.75rem;
-            font-weight: 300;
+            font-weight: 600;
             line-height: 1.5;
           }
         }
 
         > p {
-          color: var(--color-gray-400);
-          font-size: 1.1rem;
-          line-height: 1.4;
+          color: var(--color-gray-500);
+          font-size: 1.1875rem;
+          letter-spacing: 0.2280000001192093px;
+          line-height: 1.6875rem;
           margin: 0 0 2rem;
         }
       }

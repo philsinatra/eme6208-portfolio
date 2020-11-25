@@ -63,13 +63,14 @@ export default function Home(props) {
         <Mast />
         <IntroStyles id="intro">
           <div className="contain">
-            <h2>Welcome</h2>
-            <p className="lead">
-              My name is Phil Sinatra. I am a web developer, instructor, husband
-              and father. I love music, sports and craft beer. Have a look at
-              all of the cool things I've built as part of my Designing
-              Integrated Media Environments class at UF!
-            </p>
+            <div className="intro">
+              <p className="lead">
+                <span>Hello.</span> My name is Phil Sinatra. I am a developer,
+                instructor and author. I love music and sports. Have a look at
+                all of the cool things I've built as part of my Designing
+                Integrated Media Environments class at UF!
+              </p>
+            </div>
             <div className="grid">
               {data.map(({ description, img, title, to, week }) => (
                 <div className="card" key={uuidv4()}>

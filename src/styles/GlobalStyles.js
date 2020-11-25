@@ -55,6 +55,7 @@ const GlobalStyles = createGlobalStyle`
     --color-gray-75: #1a1a1a;
     --color-gray-100: #1e1e1e;
     --color-gray-200: #2c2c2c;
+    --color-gray-250: #333333;
     --color-gray-300: #393939;
     --color-gray-400: #494949;
     --color-gray-500: #5c5c5c;
@@ -99,7 +100,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: Raleway,
+    font-family:
                  -apple-system,
                  BlinkMacSystemFont,
                  "Segoe UI",
@@ -204,6 +205,7 @@ const GlobalStyles = createGlobalStyle`
   a.button, .button {
     background-color: var(--color-white);
     border: 2px solid var(--color-gray-900);
+    border-radius: 1.5rem;
     color: var(--color-black);
     display: inline-block;
     font-weight: 350;
